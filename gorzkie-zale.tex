@@ -1,0 +1,37 @@
+%\documentclass[wide,a4paper,12pt,titlepage]{mwart}
+\documentclass[wide,landscape,a4paper,10pt]{mwart}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{polski}
+\usepackage{lmodern}
+\usepackage{graphicx,pdflscape}
+\usepackage{listings}
+\usepackage{setspace}
+%\linespread{1.1} %interlinia
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex} % Odstępy akapitów
+\setlength\parindent{0pt}
+\usepackage{geometry}
+\geometry{verbose,a4paper,tmargin=1.5cm,bmargin=1.5cm,lmargin=1.0cm,rmargin=1.0cm} % Marginesy strony
+\setcounter{secnumdepth}{0} % Brak numeracji nagłówków
+\usepackage[osf]{libertine} % Font
+\usepackage{multicol}
+%Strona tytułowa
+
+
+\begin{document}
+\footnotesize 
+\pagestyle{empty}
+\begin{multicols}{4}
+	
+\section{Gorzkie żale}
+
+\input{parts/gorzkie-zale-cz-1}
+
+\input{parts/gorzkie-zale-cz-2}
+
+\input{parts/gorzkie-zale-cz-3}
+
+\end{multicols}
+
+\end{document}
